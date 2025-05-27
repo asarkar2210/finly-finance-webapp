@@ -1,5 +1,6 @@
 
-![Finly](https://github.com/user-attachments/assets/cfa7fe5e-df10-49e9-b04d-195dbbd213bc)
+![Finly](https://github.com/user-attachments/assets/503e6a7d-aa58-4a2b-893b-143d32ca297c)
+
 
 # Finly – Personal Finance Management App
 
@@ -26,6 +27,7 @@ Deployed website - https://finly-finance-webapp.vercel.app/
 - **Financial Data Aggregation API:** [Plaid](https://plaid.com/docs/)
 - **Payment Integration API** [Dwolla](https://developers.dwolla.com/docs/balance/api-reference/api-fundamentals)
 - **Database:** [Appwrite](https://appwrite.io/docs)
+- **Application Monitoring and Error Tracking:** [Sentry](https://sentry.io/welcome/) 
 - **Charts:** [Chart.js](https://www.chartjs.org/)
 - **Deployment:** [Vercel](https://vercel.com/)
 
@@ -129,16 +131,31 @@ finly-finance-management-app/
    Email: Any email, in a valid format.
    Password: Minimum 8 characters.
    ```
+6. **Connecting Bank Accounts**
+
+   You can only use sandbox accounts here. 
+   
+   Once you reach this part, while connecting your dummy bank account - 
+
+   ![Screenshot 2025-05-28 005915](https://github.com/user-attachments/assets/c5f47eee-8bb7-453e-8fd8-578849a10e61)
+
+   Use the following user-name and password:
+   ```bash
+   username: user_good
+   password: pass_good
+   ```
+   And you are good to go!
+   
 ---
 
 ## 📊 Screenshots
 
-![Sign In](https://github.com/user-attachments/assets/8dab0634-a541-4658-80ce-61db3733a00b) 
-![Sign Up](https://github.com/user-attachments/assets/09fc62cd-4b7e-469e-99fb-e9fec7e491cd)
-![Homepage](https://github.com/user-attachments/assets/5e304d3e-1389-497c-b49a-c021c665365f)
-![My Banks](https://github.com/user-attachments/assets/1e39046a-8af4-4180-9379-d790a9eb4bda)
-![Transaction History](https://github.com/user-attachments/assets/0dba4fe3-5444-4f1f-abc4-cc3969044c63)
-![Transfer Funds](https://github.com/user-attachments/assets/720194a3-f715-4c05-91a4-c4b51001e0cb)
+![Sign In](https://github.com/user-attachments/assets/f9e9e4fd-37bb-433e-9cc4-f2b5855e4a4e)
+![Sign Up](https://github.com/user-attachments/assets/202e2326-f209-4daf-886a-c1c3547ba90b)
+![Homepage](https://github.com/user-attachments/assets/0bb093e2-2117-4c83-93c0-5142f7ca6a06)
+![My Banks](https://github.com/user-attachments/assets/722b1d49-ec6c-496c-8c08-8a77f09d323d)
+![Transaction History](https://github.com/user-attachments/assets/25afe1e0-d87a-402b-a598-4740c1b3c150)
+![Transfer Funds](https://github.com/user-attachments/assets/6201846e-f7e7-4fe6-bd8f-38d8ca4c5be6)
 
 ---
 
