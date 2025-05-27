@@ -5,6 +5,7 @@
 
 Finly is a sleek, modern web application designed to help individuals take control of their personal finances. With intuitive tools for tracking income, managing expenses, and visualizing financial data, Finly empowers users to make informed financial decisions.
 
+Deployed website - https://finly-finance-webapp.vercel.app/
 ---
 
 ## 🚀 Features
@@ -112,6 +113,22 @@ finly-finance-management-app/
 
    Open [http://localhost:3000](http://localhost:3000) in your browser to view the application.
 
+5. **Sample user credentials for reference:**
+
+   Due to limitations by Dwolla, only valid US addresses are supported. Kindly follow the below sample user credentials for signing up. 
+
+   ```bash
+   First name: Your first name.
+   Last name: Your last name.
+   Address: Can be anything.
+   City: Must be a valid city in the US. Eg: Los Angeles
+   State: Must be a valid US state, and only of 2 characters. Eg: CA
+   Postal Code: Must be a US 5-digit ZIP code. Eg: 50314
+   Date of Birth: In YYYY-MM-DD format. Must be between 18 to 125 years old at the time of submission.
+   SSN: Last four digits. Eg: 1234
+   Email: Any email, in a valid format.
+   Password: Minimum 8 characters.
+   ```
 ---
 
 ## 📊 Screenshots
@@ -128,6 +145,13 @@ finly-finance-management-app/
 ## 📄 License
 
 This project is licensed under the [MIT License](LICENSE).
+
+---
+
+## 🐞Issues / Known Bugs
+
+- Only US states, cities, postal codes and SSNs are supported. This is a limitation of [Dwolla](https://developers.dwolla.com/docs/balance/api-reference/customers/create#verified-personal-customer---request-parameters).
+- Categories of transactions are not displayed.
 
 ---
 
